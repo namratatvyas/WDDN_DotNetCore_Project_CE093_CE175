@@ -1,0 +1,52 @@
+﻿.div1 {
+    background-color: white;
+    width: 1475px;
+    height: 700px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.left-col {
+    float: left;
+    width: 360px;
+    height: 480px;
+    position:absolute;
+    border: 1px solid #162e44;
+}
+
+.center-col {
+    width: 360px;
+    height: 480px;
+    position: absolute;
+    border: 1px solid #162e44;
+    text-align:center;
+}
+
+.right-col {
+    width: 360px;
+    height: 480px;
+    text-align: center;
+    position:absolute;
+    border: 1px solid #162e44;
+}
+
+.h5{
+    position:relative;
+    bottom:100px;
+    color:white;
+}
+.p1{
+    position:relative;
+    bottom:30px;
+    color:black;
+    font-size:13px;
+}
+.btn1 {
+    height: 30px;
+    width: 300px;
+    position: relative;
+    bottom: 20px;
+    background-color: #162e44;
+    color:white;
+    left:30px;
+}

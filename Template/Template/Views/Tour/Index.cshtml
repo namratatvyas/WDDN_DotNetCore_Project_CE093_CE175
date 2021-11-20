@@ -1,0 +1,23 @@
+﻿
+@model IEnumerable<Template.Models.TourDetails>
+
+@{
+    ViewBag.Title = "Bind Gridview with Database";
+    WebGrid grid = new WebGrid(Model);
+}
+
+<h2>Bind GridView in MVC5 with Database</h2>
+@grid.GetHtml(columns: new[]
+
+{
+    grid.Column("CId"),
+    grid.Column("city"),
+    grid.Column("Description"),
+    grid.Column("TopPlacesToVisit"),
+    grid.Column("Restaurants"),
+    grid.Column("Hotels"),
+    grid.Column("Guide")
+
+
+}
+)  

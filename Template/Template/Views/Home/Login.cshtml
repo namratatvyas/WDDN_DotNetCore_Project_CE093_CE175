@@ -1,0 +1,26 @@
+﻿<html>
+<body>
+   
+
+    <form name="loginForm" method="post" action="index.html">
+        <center>
+            <h5>UserName  <input id="Text1" type="text" /></h5><br />
+            <h5>Password   <input id="Password1" type="password" /></h5><br />
+            <input id="Submit1" type="submit" onclick="return check(this.form)" value="Login" />
+        </center>
+    </form>
+    <script language="javascript">function check(form) {
+
+            if (form.Text1.value == "Namrata" && form.Password1.value == "12345")
+            {
+                alert("Welcome")
+                return true;
+            }
+            else {
+                alert("Incorrect Password or Username")
+                return false;
+            }
+        }</script>
+
+</body>
+</html>

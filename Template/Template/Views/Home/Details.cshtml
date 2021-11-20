@@ -1,0 +1,79 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/detaildesign.css">
+<div class="div1">
+    <!-- Section Box Categories-->
+    <section class="section section-lg section-top-1 bg-gray-4">
+        <div class="container offset-negative-1">
+            <div class="box-categories cta-box-wrap">
+                <div class="box-categories-content">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
+                            <ul class="list-marked-2 box-categories-list">
+                                <div class="left-col">
+                                <li>
+                                    <a href="#"><img src="~/images/marinedrive2.jpg" alt="" width="368" height="500" /></a>
+                                    <h5 class="h5">Mumbai</h5>
+                                    <p class="p1">Mumbai is a densely populated city on India’s west coast.A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry. </p>
+                                <li>@Html.ActionLink("Read More", "Mumbai", "Home", new { @class = "btn1" })</li>
+                                  
+                                                           
+                                
+                                </li>
+</div>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
+                        <ul class="list-marked-2 box-categories-list">
+                            <div class="center-col">
+                            <li>
+                                <a href="#"><img src="~/images/kankaria3.jpg" alt="" width="368" height="420" /></a>
+                                <h5 class="h5">Ahmedabad</h5>
+                                <p class="p1">
+                                    Ahmedabad, in western India, is the largest city in the state of Gujarat.
+                                    The Sabarmati River runs through its center. On the western bank is the Gandhi Ashram at Sabarmati,
+                                    which displays the spiritual leader’s living quarters and artifacts. Across the river, the Calico Museum of Textiles,
+                                    once a cloth merchant's mansion, has a significant collection of antique and modern fabrics.
+                                </p>
+                            <li>@Html.ActionLink("Read More", "Ahmedabad", "Home", new { @class = "btn1" })</li>
+                            
+                            </li>
+</div>
+                    </ul>
+                </div>
+                <div class="col-md-4 wow fadeInDown col-9" data-wow-delay=".2s">
+                    <ul class="list-marked-2 box-categories-list">
+                        <div class="right-col">
+                        <li>
+                            <a href="#"><img src="~/images/hawa2.jpg" width="368" height="420" /></a>
+                            <h5 class="h5">Jaipur</h5>
+                            <p class="p1">
+                                Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled
+                                the region and that, in 1727, founded what is now called the Old City, or “Pink City” for its trademark
+                                building color. At the center of its stately street grid (notable in India) stands the opulent,
+                                colonnaded City Palace complex. With gardens, courtyards and museums, part of it is still a royal residence.
+                            </p>
+                        <li>@Html.ActionLink("Read More", "Jaipur", "Home", new { @class = "btn1" })</li>
+                        
+                        </li>
+</div>
+                </ul>
+            </div>
+        </div>
+</div>
+          </div><a class="link-classic wow fadeInUp" href="#" style="position:relative;top:90px;">Other Tours<span></span></a>
+<!-- Owl Carousel-->
+        </div>
+      </section>
+            </div>
+<!-- Global Mailform Output-->
+<div class="snackbars" id="form-output-global"></div>
+<!-- Javascript-->
+<script src="~/js/core.min.js"></script>
+<script src="~/js/script.js"></script>
+
+

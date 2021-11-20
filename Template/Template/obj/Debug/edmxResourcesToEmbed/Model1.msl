@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BucketListMVCModelStoreContainer" CdmEntityContainer="BucketListMVCEntities">
+    <EntitySetMapping Name="Details_Table">
+      <EntityTypeMapping TypeName="BucketListMVCModel.Details_Table">
+        <MappingFragment StoreEntitySet="Details_Table">
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TopPlacesToVisit" ColumnName="TopPlacesToVisit" />
+          <ScalarProperty Name="Restaurants" ColumnName="Restaurants" />
+          <ScalarProperty Name="Hotels" ColumnName="Hotels" />
+          <ScalarProperty Name="Guide" ColumnName="Guide" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
